@@ -16,11 +16,58 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="timeLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHS-O5-dDh">
+                                <rect key="frame" x="150" y="225" width="300" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Bcd-dW-W8i"/>
+                                    <constraint firstAttribute="height" constant="150" id="F3h-qN-7J0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydd-8I-R2I">
+                                <rect key="frame" x="200" y="383" width="200" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="dTq-1I-n3M"/>
+                                    <constraint firstAttribute="width" constant="200" id="zsm-zz-udY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                                <state key="normal" title="STOP">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FX-LE-p81">
+                                <rect key="frame" x="200" y="117" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Qd7-ZG-73P"/>
+                                    <constraint firstAttribute="height" constant="100" id="s2i-Hg-1OV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ydd-8I-R2I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0NC-cW-Tvj"/>
+                            <constraint firstItem="1FX-LE-p81" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="35O-L8-3sy"/>
+                            <constraint firstItem="ydd-8I-R2I" firstAttribute="top" secondItem="ZHS-O5-dDh" secondAttribute="bottom" constant="8" id="8ht-Rb-YiB"/>
+                            <constraint firstItem="ZHS-O5-dDh" firstAttribute="top" secondItem="1FX-LE-p81" secondAttribute="bottom" constant="8" id="sDQ-Dv-t3u"/>
+                            <constraint firstItem="ZHS-O5-dDh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uTL-hU-c03"/>
+                            <constraint firstItem="ZHS-O5-dDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xNO-Zg-qsr"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="378" y="339"/>
         </scene>
     </scenes>
 </document>
