@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var stopButton: UIButton!
     
     var counter: Int = 0
-    var timer = NSTimer()
     
     @IBAction func startTime(sender: AnyObject) {
         updateButtonSettings()
@@ -44,7 +43,7 @@ class ViewController: UIViewController {
     
     func validateTimer() {
         let repeatingFunction: Selector = #selector(ViewController.updateTime)
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: repeatingFunction, userInfo: nil, repeats: true)
+        let _ = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: repeatingFunction, userInfo: nil, repeats: true)
     }
     
     func updateTime() {
