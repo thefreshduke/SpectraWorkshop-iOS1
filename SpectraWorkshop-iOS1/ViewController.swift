@@ -18,27 +18,25 @@ class ViewController: UIViewController {
     var timer = NSTimer()
     
     @IBAction func startTime(sender: AnyObject) {
-        startButton.enabled = false
-        startButton.hidden = true
-        stopButton.enabled = true
-        stopButton.hidden = false
-        
+        updateButtonSettings()
         validateTimer()
     }
     
     @IBAction func stopTime(sender: AnyObject) {
-        startButton.enabled = true
-        startButton.hidden = false
-        stopButton.enabled = false
-        stopButton.hidden = true
+        updateButtonSettings()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         timeLabel.text = "00:00:00"
+        
+        startButton.enabled = true
+        startButton.hidden = false
+        stopButton.enabled = false
+        stopButton.hidden = true
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -52,6 +50,13 @@ class ViewController: UIViewController {
     func updateTime() {
         counter += 1
         timeLabel.text = "\(counter)"
+    }
+    
+    func updateButtonSettings() {
+        startButton.enabled = !startButton.enabled
+        startButton.hidden = !startButton.hidden
+        stopButton.enabled = !stopButton.enabled
+        stopButton.hidden = !stopButton.hidden
     }
 }
 
