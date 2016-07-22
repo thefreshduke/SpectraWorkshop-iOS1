@@ -38,6 +38,9 @@
                                 <state key="normal" title="STOP">
                                     <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </state>
+                                <connections>
+                                    <action selector="stopTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ThY-02-KNJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FX-LE-p81">
                                 <rect key="frame" x="200" y="117" width="200" height="100"/>
@@ -52,6 +55,9 @@
                                     <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="startTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tB6-MV-9di"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -64,6 +70,11 @@
                             <constraint firstItem="ZHS-O5-dDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xNO-Zg-qsr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="startButton" destination="1FX-LE-p81" id="k5W-5t-HHo"/>
+                        <outlet property="stopButton" destination="ydd-8I-R2I" id="CQZ-rz-crV"/>
+                        <outlet property="timeLabel" destination="ZHS-O5-dDh" id="agg-Uo-0Kg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
