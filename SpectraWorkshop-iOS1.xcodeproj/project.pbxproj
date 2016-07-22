@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F5FE33F1D41F4E4003E5680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FE33E1D41F4E4003E5680 /* AppDelegate.swift */; };
+		6F5FE3411D41F4E4003E5680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FE3401D41F4E4003E5680 /* ViewController.swift */; };
+		6F5FE3441D41F4E4003E5680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FE3421D41F4E4003E5680 /* Main.storyboard */; };
+		6F5FE3461D41F4E4003E5680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FE3451D41F4E4003E5680 /* Assets.xcassets */; };
+		6F5FE3491D41F4E4003E5680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FE3471D41F4E4003E5680 /* LaunchScreen.storyboard */; };
+		6F5FE3541D41F4E4003E5680 /* SpectraWorkshop_iOS1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FE3531D41F4E4003E5680 /* SpectraWorkshop_iOS1Tests.swift */; };
+		6F5FE35F1D41F4E4003E5680 /* SpectraWorkshop_iOS1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FE35E1D41F4E4003E5680 /* SpectraWorkshop_iOS1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F5FE3501D41F4E4003E5680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5FE3331D41F4E4003E5680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5FE33A1D41F4E4003E5680;
+			remoteInfo = "SpectraWorkshop-iOS1";
+		};
+		6F5FE35B1D41F4E4003E5680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5FE3331D41F4E4003E5680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5FE33A1D41F4E4003E5680;
+			remoteInfo = "SpectraWorkshop-iOS1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F5FE33B1D41F4E4003E5680 /* SpectraWorkshop-iOS1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpectraWorkshop-iOS1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5FE33E1D41F4E4003E5680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F5FE3401D41F4E4003E5680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F5FE3431D41F4E4003E5680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F5FE3451D41F4E4003E5680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F5FE3481D41F4E4003E5680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F5FE34A1D41F4E4003E5680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5FE34F1D41F4E4003E5680 /* SpectraWorkshop-iOS1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpectraWorkshop-iOS1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5FE3531D41F4E4003E5680 /* SpectraWorkshop_iOS1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraWorkshop_iOS1Tests.swift; sourceTree = "<group>"; };
+		6F5FE3551D41F4E4003E5680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5FE35A1D41F4E4003E5680 /* SpectraWorkshop-iOS1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpectraWorkshop-iOS1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5FE35E1D41F4E4003E5680 /* SpectraWorkshop_iOS1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraWorkshop_iOS1UITests.swift; sourceTree = "<group>"; };
+		6F5FE3601D41F4E4003E5680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F5FE3381D41F4E4003E5680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FE34C1D41F4E4003E5680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FE3571D41F4E4003E5680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F5FE3321D41F4E4003E5680 = {
+			isa = PBXGroup;
+			children = (
+				6F5FE33D1D41F4E4003E5680 /* SpectraWorkshop-iOS1 */,
+				6F5FE3521D41F4E4003E5680 /* SpectraWorkshop-iOS1Tests */,
+				6F5FE35D1D41F4E4003E5680 /* SpectraWorkshop-iOS1UITests */,
+				6F5FE33C1D41F4E4003E5680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F5FE33C1D41F4E4003E5680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F5FE33B1D41F4E4003E5680 /* SpectraWorkshop-iOS1.app */,
+				6F5FE34F1D41F4E4003E5680 /* SpectraWorkshop-iOS1Tests.xctest */,
+				6F5FE35A1D41F4E4003E5680 /* SpectraWorkshop-iOS1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F5FE33D1D41F4E4003E5680 /* SpectraWorkshop-iOS1 */ = {
+			isa = PBXGroup;
+			children = (
+				6F5FE33E1D41F4E4003E5680 /* AppDelegate.swift */,
+				6F5FE3401D41F4E4003E5680 /* ViewController.swift */,
+				6F5FE3421D41F4E4003E5680 /* Main.storyboard */,
+				6F5FE3451D41F4E4003E5680 /* Assets.xcassets */,
+				6F5FE3471D41F4E4003E5680 /* LaunchScreen.storyboard */,
+				6F5FE34A1D41F4E4003E5680 /* Info.plist */,
+			);
+			path = "SpectraWorkshop-iOS1";
+			sourceTree = "<group>";
+		};
+		6F5FE3521D41F4E4003E5680 /* SpectraWorkshop-iOS1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6F5FE3531D41F4E4003E5680 /* SpectraWorkshop_iOS1Tests.swift */,
+				6F5FE3551D41F4E4003E5680 /* Info.plist */,
+			);
+			path = "SpectraWorkshop-iOS1Tests";
+			sourceTree = "<group>";
+		};
+		6F5FE35D1D41F4E4003E5680 /* SpectraWorkshop-iOS1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F5FE35E1D41F4E4003E5680 /* SpectraWorkshop_iOS1UITests.swift */,
+				6F5FE3601D41F4E4003E5680 /* Info.plist */,
+			);
+			path = "SpectraWorkshop-iOS1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F5FE33A1D41F4E4003E5680 /* SpectraWorkshop-iOS1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5FE3631D41F4E5003E5680 /* Build configuration list for PBXNativeTarget "SpectraWorkshop-iOS1" */;
+			buildPhases = (
+				6F5FE3371D41F4E4003E5680 /* Sources */,
+				6F5FE3381D41F4E4003E5680 /* Frameworks */,
+				6F5FE3391D41F4E4003E5680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpectraWorkshop-iOS1";
+			productName = "SpectraWorkshop-iOS1";
+			productReference = 6F5FE33B1D41F4E4003E5680 /* SpectraWorkshop-iOS1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F5FE34E1D41F4E4003E5680 /* SpectraWorkshop-iOS1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5FE3661D41F4E5003E5680 /* Build configuration list for PBXNativeTarget "SpectraWorkshop-iOS1Tests" */;
+			buildPhases = (
+				6F5FE34B1D41F4E4003E5680 /* Sources */,
+				6F5FE34C1D41F4E4003E5680 /* Frameworks */,
+				6F5FE34D1D41F4E4003E5680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F5FE3511D41F4E4003E5680 /* PBXTargetDependency */,
+			);
+			name = "SpectraWorkshop-iOS1Tests";
+			productName = "SpectraWorkshop-iOS1Tests";
+			productReference = 6F5FE34F1D41F4E4003E5680 /* SpectraWorkshop-iOS1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F5FE3591D41F4E4003E5680 /* SpectraWorkshop-iOS1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5FE3691D41F4E5003E5680 /* Build configuration list for PBXNativeTarget "SpectraWorkshop-iOS1UITests" */;
+			buildPhases = (
+				6F5FE3561D41F4E4003E5680 /* Sources */,
+				6F5FE3571D41F4E4003E5680 /* Frameworks */,
+				6F5FE3581D41F4E4003E5680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F5FE35C1D41F4E4003E5680 /* PBXTargetDependency */,
+			);
+			name = "SpectraWorkshop-iOS1UITests";
+			productName = "SpectraWorkshop-iOS1UITests";
+			productReference = 6F5FE35A1D41F4E4003E5680 /* SpectraWorkshop-iOS1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F5FE3331D41F4E4003E5680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "___sks6___";
+				TargetAttributes = {
+					6F5FE33A1D41F4E4003E5680 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6F5FE34E1D41F4E4003E5680 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6F5FE33A1D41F4E4003E5680;
+					};
+					6F5FE3591D41F4E4003E5680 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6F5FE33A1D41F4E4003E5680;
+					};
+				};
+			};
+			buildConfigurationList = 6F5FE3361D41F4E4003E5680 /* Build configuration list for PBXProject "SpectraWorkshop-iOS1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F5FE3321D41F4E4003E5680;
+			productRefGroup = 6F5FE33C1D41F4E4003E5680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F5FE33A1D41F4E4003E5680 /* SpectraWorkshop-iOS1 */,
+				6F5FE34E1D41F4E4003E5680 /* SpectraWorkshop-iOS1Tests */,
+				6F5FE3591D41F4E4003E5680 /* SpectraWorkshop-iOS1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F5FE3391D41F4E4003E5680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FE3491D41F4E4003E5680 /* LaunchScreen.storyboard in Resources */,
+				6F5FE3461D41F4E4003E5680 /* Assets.xcassets in Resources */,
+				6F5FE3441D41F4E4003E5680 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FE34D1D41F4E4003E5680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FE3581D41F4E4003E5680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F5FE3371D41F4E4003E5680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FE3411D41F4E4003E5680 /* ViewController.swift in Sources */,
+				6F5FE33F1D41F4E4003E5680 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FE34B1D41F4E4003E5680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FE3541D41F4E4003E5680 /* SpectraWorkshop_iOS1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FE3561D41F4E4003E5680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FE35F1D41F4E4003E5680 /* SpectraWorkshop_iOS1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F5FE3511D41F4E4003E5680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F5FE33A1D41F4E4003E5680 /* SpectraWorkshop-iOS1 */;
+			targetProxy = 6F5FE3501D41F4E4003E5680 /* PBXContainerItemProxy */;
+		};
+		6F5FE35C1D41F4E4003E5680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F5FE33A1D41F4E4003E5680 /* SpectraWorkshop-iOS1 */;
+			targetProxy = 6F5FE35B1D41F4E4003E5680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F5FE3421D41F4E4003E5680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F5FE3431D41F4E4003E5680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F5FE3471D41F4E4003E5680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F5FE3481D41F4E4003E5680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F5FE3611D41F4E4003E5680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F5FE3621D41F4E4003E5680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F5FE3641D41F4E5003E5680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SpectraWorkshop-iOS1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.scottyshaw.SpectraWorkshop-iOS1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F5FE3651D41F4E5003E5680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SpectraWorkshop-iOS1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.scottyshaw.SpectraWorkshop-iOS1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F5FE3671D41F4E5003E5680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SpectraWorkshop-iOS1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.scottyshaw.SpectraWorkshop-iOS1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectraWorkshop-iOS1.app/SpectraWorkshop-iOS1";
+			};
+			name = Debug;
+		};
+		6F5FE3681D41F4E5003E5680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SpectraWorkshop-iOS1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.scottyshaw.SpectraWorkshop-iOS1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectraWorkshop-iOS1.app/SpectraWorkshop-iOS1";
+			};
+			name = Release;
+		};
+		6F5FE36A1D41F4E5003E5680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SpectraWorkshop-iOS1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.scottyshaw.SpectraWorkshop-iOS1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SpectraWorkshop-iOS1";
+			};
+			name = Debug;
+		};
+		6F5FE36B1D41F4E5003E5680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SpectraWorkshop-iOS1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.scottyshaw.SpectraWorkshop-iOS1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SpectraWorkshop-iOS1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F5FE3361D41F4E4003E5680 /* Build configuration list for PBXProject "SpectraWorkshop-iOS1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5FE3611D41F4E4003E5680 /* Debug */,
+				6F5FE3621D41F4E4003E5680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F5FE3631D41F4E5003E5680 /* Build configuration list for PBXNativeTarget "SpectraWorkshop-iOS1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5FE3641D41F4E5003E5680 /* Debug */,
+				6F5FE3651D41F4E5003E5680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F5FE3661D41F4E5003E5680 /* Build configuration list for PBXNativeTarget "SpectraWorkshop-iOS1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5FE3671D41F4E5003E5680 /* Debug */,
+				6F5FE3681D41F4E5003E5680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F5FE3691D41F4E5003E5680 /* Build configuration list for PBXNativeTarget "SpectraWorkshop-iOS1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5FE36A1D41F4E5003E5680 /* Debug */,
+				6F5FE36B1D41F4E5003E5680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F5FE3331D41F4E4003E5680 /* Project object */;
+}
