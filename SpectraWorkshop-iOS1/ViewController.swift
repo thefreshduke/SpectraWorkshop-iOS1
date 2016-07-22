@@ -31,10 +31,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         timeLabel.text = "00:00:00"
         
-        startButton.enabled = true
-        startButton.hidden = false
         stopButton.enabled = false
         stopButton.hidden = true
     }
