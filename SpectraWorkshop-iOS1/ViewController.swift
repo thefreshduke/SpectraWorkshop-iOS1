@@ -14,12 +14,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var stopButton: UIButton!
     
+    var counter: Int = 0
+    var timer = NSTimer()
+    
     @IBAction func startTime(sender: AnyObject) {
         startButton.enabled = false
         startButton.hidden = true
         stopButton.enabled = true
         stopButton.hidden = false
-        timeLabel.text = "STARTED"
+        
+        validateTimer()
     }
     
     @IBAction func stopTime(sender: AnyObject) {
@@ -27,7 +31,6 @@ class ViewController: UIViewController {
         startButton.hidden = false
         stopButton.enabled = false
         stopButton.hidden = true
-        timeLabel.text = "STOPPED"
     }
     
     override func viewDidLoad() {
@@ -39,6 +42,16 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func validateTimer() {
+        let repeatingFunction: Selector = #selector(ViewController.updateTime)
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: repeatingFunction, userInfo: nil, repeats: true)
+    }
+    
+    func updateTime() {
+        counter += 1
+        timeLabel.text = "\(counter)"
     }
 }
 
